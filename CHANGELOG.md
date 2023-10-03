@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/azot-dev/x-core/compare/v1.12.0...v1.13.0) (2023-10-03)
+
+
+### Features
+
+* add init function ([838d062](https://github.com/azot-dev/x-core/commit/838d062b08e805e69693f9ff374c7477d8b7718f))
+
 # [1.12.0](https://github.com/azot-dev/x-core/compare/v1.11.0...v1.12.0) (2023-10-03)
 
 
