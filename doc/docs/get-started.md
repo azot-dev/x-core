@@ -130,7 +130,7 @@ It is the only "magic" piece of code to copy paste, Unfortunately I could not cr
 
 import { Observable } from '@legendapp/state';
 import { BaseService } from '@azot-dev/x-core';
-import { DependenciesType, Services, StoreType } from './types';
+import { Dependencies, Services, StoreType } from './types';
 
 export abstract class Service extends BaseService<
   Services,
@@ -139,7 +139,7 @@ export abstract class Service extends BaseService<
 > {
   constructor(
     store: Observable<StoreType>,
-    dependencies: Partial<DependenciesType>,
+    dependencies: Partial<Dependencies>,
     serviceRegistry: any
   ) {
     super(store, dependencies, serviceRegistry);
@@ -157,7 +157,7 @@ import { services } from './services/_services';
 import { store } from './store/_store';
 import { Dependencies } from './utils/types';
 
-export const Core = createCoreFactory<DependenciesType>()(store, services);
+export const Core = createCoreFactory<Dependencies>()(store, services);
 ```
 
 ### The hooks
