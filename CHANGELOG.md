@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/azot-dev/x-core/compare/v1.13.0...v1.13.1) (2023-10-06)
+
+
+### Bug Fixes
+
+* update get-started.md ([524af00](https://github.com/azot-dev/x-core/commit/524af004aa87a26d9aea6cdb763e317477425f39))
+
 # [1.13.0](https://github.com/azot-dev/x-core/compare/v1.12.0...v1.13.0) (2023-10-03)
 
 
